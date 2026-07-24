@@ -1,0 +1,6 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#0a1628"/>
+  <circle cx="200" cy="150" r="80" fill="#1e3a5f"/>
+  <rect x="180" y="70" width="40" height="80" fill="#00d4ff"/>
+  <text x="200" y="250" font-family="Arial" font-size="16" fill="#00d4ff" text-anchor="middle">Sensor Buoy</text>
+</svg>

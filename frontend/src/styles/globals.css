@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #020914;
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+/* Custom Glassmorphism Cards */
+.glass-panel {
+  background: rgba(6, 21, 39, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(34, 211, 238, 0.2);
+}
+
+.glass-nav {
+  background: rgba(3, 12, 24, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(34, 211, 238, 0.2);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-3px);
+  border-color: rgba(34, 211, 238, 0.45);
+  box-shadow: 0 10px 30px rgba(34, 211, 238, 0.15);
+}
+
+/* Leaflet Custom Styling Overrides */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #020914 !important;
+  border-radius: 16px;
+}
+
+.leaflet-popup-content-wrapper {
+  background: rgba(3, 12, 24, 0.95) !important;
+  color: #f1f5f9 !important;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(34, 211, 238, 0.3);
+  border-radius: 14px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6) !important;
+}
+
+.leaflet-popup-tip {
+  background: rgba(3, 12, 24, 0.95) !important;
+}

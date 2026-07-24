@@ -33,6 +33,43 @@ OceanEye is an AI-powered marine intelligence platform designed for researchers,
 
 ---
 
+## Quick Start
+
+### 1. Start the Backend REST Server
+```bash
+cd backend
+npm install
+npm run dev
+# Server running at http://localhost:5000 (Health check: http://localhost:5000/api/v1/health)
+```
+
+### 2. Start the Frontend Client
+```bash
+cd frontend
+npm install
+npm run dev
+# Web App running at http://localhost:3000
+```
+
+---
+
+## REST API Endpoints (`/api/v1`)
+
+| Endpoint | Method | Description |
+| :--- | :--- | :--- |
+| `/api/v1/health` | GET | System status check |
+| `/api/v1/dashboard` | GET | Combined KPIs, live feed, weather summary |
+| `/api/v1/drones` | GET | Fleet telemetry & drone statuses |
+| `/api/v1/vision/detections` | GET | VisionAI object classifications |
+| `/api/v1/coral/reefs` | GET | Coral reef health scores & bleaching % |
+| `/api/v1/species` | GET | Marine census catalog & migration data |
+| `/api/v1/atlas/sectors` | GET | Ocean GIS sector bounds & coordinates |
+| `/api/v1/risk/forecast` | GET | AI risk engine predictive scores |
+| `/api/v1/analytics` | GET | Aggregated historical trend data |
+| `/api/v1/alerts` | GET / PATCH | System alert triage feed |
+
+---
+
 ## Tech Stack
 
 - **Frontend**: React 19, Vite, Tailwind CSS, Framer Motion, Lucide React, Leaflet, Recharts, React Router

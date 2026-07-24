@@ -1,0 +1,16 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgCoral" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#021a1a"/>
+      <stop offset="100%" stop-color="#052e2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgCoral)"/>
+  <path d="M 400 480 Q 400 350 350 280 Q 330 250 300 240 M 400 380 Q 450 300 490 260 M 400 480 Q 420 320 400 220 Q 390 180 370 160 M 400 480 Q 370 340 430 200" stroke="#10b981" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <circle cx="370" cy="160" r="8" fill="#34d399" opacity="0.7"/>
+  <circle cx="300" cy="240" r="8" fill="#34d399" opacity="0.7"/>
+  <circle cx="490" cy="260" r="8" fill="#34d399" opacity="0.7"/>
+  <circle cx="430" cy="200" r="8" fill="#34d399" opacity="0.7"/>
+  <text x="400" y="520" font-family="monospace" font-size="15" fill="#34d399" text-anchor="middle" font-weight="bold" letter-spacing="2">CORALSCAN REEF SPECTRAL SCAN</text>
+  <text x="400" y="545" font-family="sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Multispectral Sanctuary Thermal Audit</text>
+</svg>
