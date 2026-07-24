@@ -1,0 +1,31 @@
+{
+  "name": "oceaneye-backend",
+  "version": "1.0.0",
+  "description": "Production-grade Express REST API backend for OceanEye Marine Intelligence Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "oceaneye",
+    "marine-intelligence",
+    "express",
+    "rest-api",
+    "gis",
+    "ai-marine"
+  ],
+  "author": "OceanEye Engineering Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.3.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
